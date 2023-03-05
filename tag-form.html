@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Tag FORM</title></head>
+    <body>
+        <form action="simpan.php" method="POST">
+             <h1>Detail Data Diri</h1>
+             <p>
+                 Nama<br/>
+                 <input type="text" name="Nama"/>
+             </p>
+             <p>
+                 Email<br/>
+                 <input type="text" name="Email"/>
+             </p>
+             <p><b>Review</b></p>
+             <p>
+                 Anda tahu informasi ini dari mana?<br/>
+                 <select name="Referensi">
+                 <option value="Google">Google</option>
+                 <option value="yotube">Youtube</option>
+                 <option value="teman"> Dari Teman</option>
+                </select>
+                </p>
+                <p>
+                    Apakah mungkin kesini lagi<br/>
+                    <input type="radio" name="kesini"/> Ya
+                    <input type="radio" name="kesini"/> Tidak
+                </p>
+                <p>
+                    Kesan & Pesan<br/>
+                    <textarea cols="30" rows="10">
+
+                    </textarea>
+                </p>
+                <p>
+                    <input type="submit" name="simpan" value="Simpan"/>
+                </p>
+
+
+
+        </form>
+    </body>
+</html>
